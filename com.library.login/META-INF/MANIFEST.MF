@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Login
+Bundle-SymbolicName: com.library.login
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.library.login.LoginActivator
+Bundle-Vendor: LIBRARY
+Automatic-Module-Name: com.library.login
+Import-Package: com.library.employee,
+ com.library.main,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
